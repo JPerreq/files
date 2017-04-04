@@ -13,7 +13,7 @@ int main()
 
    cout<<endl<<endl;
  
-   ofstream myfile{"abc.txt", ios::hex};
+   ofstream myfile{"abc.bin", ios::binary};
    
    if (myfile)
 	{
